@@ -1,0 +1,142 @@
+.form__input {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: .2rem;
+    background-color: #ffffff88;
+    border: none;
+    font-family: inherit;
+    border-bottom: 3px solid transparent;
+    width: 100%;
+    display: block;
+    color: inherit;
+    transition: all .3s;
+
+    @media screen and (max-width:1100px) {}
+
+    &:focus {
+        outline: none;
+        box-shadow: 0rem 1rem 2rem #00000025;
+        border-bottom: 3px solid var(--color-acceptable);
+    }
+
+    &:focus:invalid {
+        border-bottom: 3px solid var(--color-invalid);
+    }
+
+    &::placeholder {
+        color: #999;
+    }
+
+    &:placeholder-shown+.form_label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+    }
+}
+
+.form_label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: .2rem;
+    display: block;
+    transition: all .2s;
+    color: #fff
+}
+
+.form__group {
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+}
+
+.section-contact {
+    width: 90rem;
+
+    @media screen and (max-width:1100px) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.contact {
+    background-image: linear-gradient(105deg, #71c9cec9 0%, #71c9ce81 50%, transparent 50%), url(../img/red_background.jpg);
+    background-size: cover;
+    border-radius: .3rem;
+    box-shadow: 0 0 10rem #000000b3;
+
+    @media screen and (max-width:1100px) {
+        height: 100%;
+        box-shadow: none;
+        background-image: linear-gradient(to right, #71c9cec9, #71c9ce81), url(../img/red_background.jpg);
+    }
+}
+
+.form__user-message {
+    width: 30rem;
+    height: 10rem;
+    background-color: #ffffff88;
+    border: none;
+    color: inherit;
+
+    &:focus {
+        outline: none;
+        border: 3px solid var(--color-acceptable);
+    }
+
+    &:focus:invalid {
+        border: 3px solid var(--color-invalid);
+    }
+}
+
+.contact__form {
+    flex: 0 0 50%;
+    display: flex;
+    padding: 3rem;
+
+    @media screen and (max-width:1100px) {
+        flex-direction: column;
+    }
+}
+
+.form__label {
+    font-size: 1.8rem;
+    color: #fff;
+    display: block;
+}
+
+.form__pictures {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+
+    @media screen and (max-width:1100px) {
+        margin-top: 2rem;
+        flex-direction: row;
+    }
+
+    @media screen and (max-width:768px) {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        justify-items: center;
+        grid-gap: 2rem;
+    }
+}
+
+.form__images {
+    width: 25%;
+    height: auto;
+    outline: 1px solid #000;
+
+    @media screen and (max-width:1100px) {
+        outline: none;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width:768px) {
+        width: 100%;
+        padding: 0rem;
+    }
+}

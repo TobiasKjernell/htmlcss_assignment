@@ -1,0 +1,74 @@
+Create a Website
+
+
+For assignment 1 we will be creating a Multi Page Website
+
+
+
+This assignment is to test both your newly acquired HTML and CSS skills AND your page and code design. 
+
+
+
+The subject matter is entirely up to you - any topic is fine as long as it isn't offensive. Favorite band, sport, movies, recipe - whatever you like. If you cannot think of content you can use lorem ipsum. The content itself will not be graded, only the organization, structure and coding of the pages will be graded. 
+
+
+
+NOTE. The final assignment in the subject will involve the creation of a portfolio showcasing your skills, so you can use this as a prototype.
+
+
+
+To achieve a Godkänt grade, the website MUST consist of:
+
+
+
+At last 3 separate pages including a contact page.
+
+
+A header with a page title on every page
+
+
+A navigational menu on every page with links to the other pages
+
+
+A contact form where a user must enter their email and a message before submitting the form by clicking a button. The fields are 'required' - the form should not be able to be submitted until the required fields are filled in
+
+
+When the form is submitted:
+ my email client should open up with the "mailto:" address as the address the email will be sent to.
+the user's email and message should be added to the email body
+
+
+Responsive web design - the site must not break on different screen sizes. For this assignment tablet portrait can look the same as mobile, tablet landscape can be the same as desktop. Any small visual 'bug' on tablet landscape will be ignored from a grading perspective
+
+
+1 or more external CSS files
+
+
+To achieve a Väl Godkänt grade, complete all the above and the following:
+
+ 
+
+An indication of which menu item the user is currently on
+
+
+An image on every page. It must be responsive.
+At least one background image
+
+
+Responsive Web design - a media query must be used, and either a flex box or grid (or both) used to make the site responsive. It's possible to make a responsive website without using these CSS features but they are required for a VG grade because they are used daily in web development. You have to demonstrate that you know how to use them.
+
+
+Separate and semantic CSS & HTML files. While it is tempting (and acceptable) to create a CSS file for each page, if certain properties and values are reused they should be moved into common files. It is entirely acceptable to have more CSS files than HTML.
+
+
+Semantic naming of elements - it's okay not to be perfect, I just want to see you've thought about the concept and tried to apply some meaning to what you are building
+
+
+Consistent code style - again, it does not have to be perfect but you have to show you understand code style and have applied some consistent style
+
+
+Submission:
+
+
+
+Submission will be a link to the repository on github
